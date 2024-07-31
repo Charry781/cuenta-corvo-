@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte de Fuerza CORVO</title>
+    <style>
+      
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        input {
+            width: 100%;
+            box-sizing: border-box;
+            border: none;
+            text-align: center;
+            padding: 4px;
+        }
+        input:focus {
+            outline: none;
+        }
+        body {
+            background-color: #e0f7fa; /* Celeste claro */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #0288d1; /* Azul más oscuro para contraste */
+            color: white;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+    </style>
+
+       <header>
+        <h1>Parte de Fuerza CORVO</h1>
+    </header>
+</head>
+<body>
+    <table border="2" cellpadding="0" cellspacing="0" width="50%" bgcolor=#e7fffe >
+        <thead>
+            <tr>
+                
+                <th>Curso</th>
+                <th><label for="motivo">Motivo:</label>
+                    <select name="motivo" id="motivo">
+                        <option value="rigatoni">Apoyo</option>
+                      <option value="dave">B/G instructores</option>
+                      <option value="pumpernickel">B/G</option>
+                      <option value="reeses"></option>
+                    </select></th>
+                <th>C/E</th>    
+                <th>S/E</th>
+                <th>T/B</th>
+                <th>H/F</th>
+                <th>I/E</th>
+                <th>MISA</th>
+                <th>CATEQUESIS</th>
+                <th>FOLCLORE</th>
+                <th>COMISION</th>
+                <th>Faltan</th>
+                <th>Fuerza</th>
+                <th>Forman</th>
+            </tr>
+        </thead>
+        <tbody>
+           
+            <tr>
+                <td><input type="text" class="curso-name" value="A"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="B"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="C"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="D"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="E"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="F"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="G"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="H"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="J"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="K"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="L"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="M"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="N"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="O"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="P"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="Q"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="R"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="curso-name" value="S"></td> 
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td><input type="number" class="input" min="0" placeholder="0"></td>
+                <td class="total">0</td>
+                <td><input type="number" class="fuerza" min="0" placeholder="0"></td>
+                <td class="forman">0</td>
+            </tr>
+           
+            <tr id="total-row">
+                <td><strong>TOTAL</strong></td>
+                <td id="total-motivo">0</td>
+                <td id="total-as">0</td>
+                <td id="total-se">0</td>
+                <td id="total-sl">0</td>
+                <td id="total-hf">0</td>
+                <td id="total-ie">0</td>
+                <td id="total-misa">0</td>
+                <td id="total-catequesis">0</td>
+                <td id="total-folclore">0</td>
+                <td id="total-comision">0</td>
+                <td id="total-faltan">0</td>
+                <td id="total-fuerza">0</td>
+                <td id="total-forman">0</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+       <button onclick="guardarDatos()">Guardar</button>
+
+       <button onclick="enviarDatos()">Enviar</button>
+
+
+    <script>
+          // Función para guardar datos en localStorage
+    function guardarDatos() {
+        const filas = document.querySelectorAll('tbody tr');
+        const datos = Array.from(filas).map(fila => {
+            const celdas = fila.querySelectorAll('td input');
+            return Array.from(celdas).map(input => input.value);
+        });
+        localStorage.setItem('datos', JSON.stringify(datos));
+        alert('Datos guardados');
+    }
+
+    // Función para cargar datos desde localStorage
+    function cargarDatos() {
+        const datos = JSON.parse(localStorage.getItem('datos'));
+        if (datos) {
+            const filas = document.querySelectorAll('tbody tr');
+            datos.forEach((filaDatos, index) => {
+                const inputs = filas[index].querySelectorAll('td input');
+                inputs.forEach((input, i) => {
+                    input.value = filaDatos[i];
+                });
+            });
+        }
+    }
+
+    // Cargar los datos al cargar la página
+    window.onload = cargarDatos;
+      
+        function updateTotals() {
+            let totals = {
+                motivo: 0,
+                as: 0,
+                se: 0,
+                sl: 0,
+                hf: 0,
+                ie: 0,
+                misa: 0,
+                catequesis: 0,
+                folclore: 0,
+                comision: 0,
+                faltan: 0,
+                fuerza: 0
+            };
+
+           
+            document.querySelectorAll('tbody tr').forEach(row => {
+                if (row.id !== 'total-row') { 
+                    let total = 0;
+                
+                    row.querySelectorAll('.input').forEach((input, index) => {
+                        total += parseInt(input.value) || 0;
+                        
+                        if (index === 0) totals.motivo += parseInt(input.value) || 0;
+                        if (index === 1) totals.as += parseInt(input.value) || 0;
+                        if (index === 2) totals.se += parseInt(input.value) || 0;
+                        if (index === 3) totals.sl += parseInt(input.value) || 0;
+                        if (index === 4) totals.hf += parseInt(input.value) || 0;
+                        if (index === 5) totals.ie += parseInt(input.value) || 0;
+                        if (index === 6) totals.misa += parseInt(input.value) || 0;
+                        if (index === 7) totals.catequesis += parseInt(input.value) || 0;
+                        if (index === 8) totals.folclore += parseInt(input.value) || 0;
+                        if (index === 9) totals.comision += parseInt(input.value) || 0;
+                    });
+           
+                    const totalCell = row.querySelector('.total');
+                    totalCell.textContent = total;
+                    
+                    
+                    const faltan = total;
+                    const fuerza = parseInt(row.querySelector('.fuerza').value) || 0;
+                    
+                    
+                    const formanCell = row.querySelector('.forman');
+                    formanCell.textContent = fuerza - faltan;
+                    
+                
+                    totals.faltan += faltan;
+                    totals.fuerza += fuerza;
+                }
+            });
+
+          
+            document.getElementById('total-motivo').textContent = totals.motivo;
+            document.getElementById('total-as').textContent = totals.as;
+            document.getElementById('total-se').textContent = totals.se;
+            document.getElementById('total-sl').textContent = totals.sl;
+            document.getElementById('total-hf').textContent = totals.hf;
+            document.getElementById('total-ie').textContent = totals.ie;
+            document.getElementById('total-misa').textContent = totals.misa;
+            document.getElementById('total-catequesis').textContent = totals.catequesis;
+            document.getElementById('total-folclore').textContent = totals.folclore;
+            document.getElementById('total-comision').textContent = totals.comision;
+            document.getElementById('total-faltan').textContent = totals.faltan;
+            document.getElementById('total-fuerza').textContent = totals.fuerza;
+            document.getElementById('total-forman').textContent = totals.fuerza - totals.faltan;
+        }
+
+        
+        document.querySelectorAll('.input, .fuerza').forEach(input => {
+            input.addEventListener('input', updateTotals);
+        });
+
+       
+        updateTotals();
+
+        async function enviarDatos() {
+        const filas = document.querySelectorAll('tbody tr');
+        const datos = Array.from(filas).map(fila => {
+            const celdas = fila.querySelectorAll('td input');
+            return Array.from(celdas).map(input => input.value);
+        });
+
+        try {
+            const response = await fetch('https://tuservidor.com/api/guardar', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ datos })
+            });
+
+            if (!response.ok) throw new Error('Error al enviar los datos');
+
+            alert('Datos enviados con éxito');
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    }
+    </script>
+</body>
+</html>
